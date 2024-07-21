@@ -32,41 +32,43 @@ body {
   text-decoration: none;
 }
 
-.menu-items{
+.menu-items {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.menu-items li{
+.menu-items li {
   margin: 15px 10px 10px 10px;
   font-size: 14px;
 }
 
-.nav-brand{
+.nav-brand {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.profile-container{
-  background-color: #1ABC9C;
-  color:#FFF;
+.profile-container {
+  background-color: #1abc9c;
+  color: #fff;
   padding: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.profile-avatar img{
+.profile-avatar img {
   width: 150px;
 }
 
-.profile-title{
+.profile-title {
   margin: 35px 0 0 0;
+  font-size: 2rem;
 }
 
-.profile-description{
+.profile-description {
   margin: 0;
+  font-size: 1rem;
 }
