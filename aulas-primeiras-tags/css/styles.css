@@ -1,28 +1,36 @@
-* {
+/* Dessa forma aumenta o tamanho de todos os elementos do site */
+/* * {
   font-size: 10px;
+} */
+
+body{
+  margin: 0;
 }
 
+/* Ordem de precedência */
 .cor-laranja {
   color: orange;
 }
 
+/* Sobrescreve a cor laranja ao passar o cursor */
 .cor-laranja:hover {
   color: rgb(233, 222, 202);
 }
 
-h1,
+/* h1,
 h2 {
   color: red;
   font-size: 50px;
-}
+} */
 
 h1,
 h2 {
   color: blue;
 }
 
+/* Sobrescreve a cor azul ao passar o cursor */
 h1:hover {
-  color: rgb(2, 59, 59);
+  color: aqua;
   cursor: pointer;
 }
 
@@ -35,6 +43,7 @@ p {
   height: 200px;
 }
 
-#titles {
+/* Altera a cor de fundo do elemento com o id */
+/* #titles {
   background-color: aquamarine;
-}
+} */
