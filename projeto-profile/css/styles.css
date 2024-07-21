@@ -113,20 +113,20 @@ footer {
   margin: 20px;
 }
 
-.footer-title{
-  color: #FFF;
+.footer-title {
+  color: #fff;
   font-size: 14px;
   margin-top: 30px;
 }
 
-.social-container img{
+.social-container img {
   width: 32px;
   height: 32px;
   margin: 10px;
 }
 
-@media(min-width: 576px){
-  html{
-    font-size: 20px;
+@media (min-width: 768px) {
+  html {
+    font-size: 24px;
   }
 }
